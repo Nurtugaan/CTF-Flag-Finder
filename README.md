@@ -10,7 +10,7 @@ This Python script is designed to search for Capture The Flag (CTF) style flags 
 Run the script in a Python environment.
 
 ### How it Works
-The script reads the specified file line by line. If a line contains the string "CTF{", it assumes that it has found a flag and returns the line without leading or trailing whitespace. If the script doesn't find any flag-like strings, it returns a message indicating that the flag was not found in the file.
+The script reads the specified file line by line. If a line contains the string "CTF", it assumes that it has found a flag and returns the line without leading or trailing whitespace. If the script doesn't find any flag-like strings, it returns a message indicating that the flag was not found in the file.
 
 #### Notes
  - Make sure to specify the correct encoding for your file in the script if it's not in UTF-8.
